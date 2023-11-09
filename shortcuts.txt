@@ -1,0 +1,4 @@
+1. Ctrl + K + C         : yorum satırı 
+2. Alt gr + i + ,       : ters tırnak
+3. Ctrl + u             : kod düzenler
+4. Ctrl + l		        : Google console temizleme
