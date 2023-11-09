@@ -1,5 +1,5 @@
 
-// // ------ Arrow Function -------------------------------------
+// // ------------ Arrow Function -------------------
 // // Tek satır ise parantez kullanılmamalı yoksa hata alınır.
 // // return olduğu zaman => kullanılır
 // const entry = (name) => {
@@ -7,12 +7,11 @@
 // }
 // entry("Beyza");
 
-// // -----------------------------------------------------------
 // const operation = (x,y,z) => x*y*z;
 // var result = operation(5,5,5);
 // console.log("Result : " + result);
 
-// // ---------------- Arrays -----------------------------------
+// // ----------- Arrays -----------------------------
 
 // const numbers = [12,69,36,63,82,18,21,85,87,97];
 
@@ -45,7 +44,7 @@
 // //console.log(feedback2);
 // //console.log(feedback3);
 
-// // ---------- MAPS -----------
+// // ---------- MAPS -----------------------------
 // const provinces = new Map(); // object
 
 // // set ile ekleme
@@ -80,5 +79,17 @@
 //     console.log(province);
 // }
 
+// ---------- SETS -----------------------------
+const numbers = new Set();
 
+numbers.add(11);
+numbers.add(22);
+numbers.add(33);
+numbers.add(44);
 
+console.log(numbers.has(22));
+
+// dizi değerlerini yazdırır. numbers yazsaydık da aynı sonucu alırdık(key-value yok)
+for(let number of numbers.values()){
+    console.log(number);
+}
