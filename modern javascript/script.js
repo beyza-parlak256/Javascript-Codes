@@ -1,7 +1,7 @@
 
-// // ------------ Arrow Function -------------------
-// // Tek satır ise parantez kullanılmamalı yoksa hata alınır.
-// // return olduğu zaman => kullanılır
+// ------------ Arrow Function -------------------
+// Tek satır ise parantez kullanılmamalı yoksa hata alınır.
+// return olduğu zaman => kullanılır
 // const entry = (name) => {
 //     console.log("Hello " + name);
 // }
@@ -45,51 +45,48 @@
 // //console.log(feedback3);
 
 // // ---------- MAPS -----------------------------
-// const provinces = new Map(); // object
+const provinces = new Map(); // object
 
-// // set ile ekleme
-// provinces.set(1,"Adana");
-// provinces.set(2,"Adıyaman");
-// provinces.set(31,"Hatay");
-// provinces.set(28,"Giresun");
-// provinces.set(25,"Erzurum");
-// provinces.set(15,"Burdur");
-// provinces.set(34,"İstanbul");
+// set ile ekleme
+provinces.set(1,"Adana");
+provinces.set(2,"Adıyaman");
+provinces.set(31,"Hatay");
+provinces.set(28,"Giresun");
 
-// let result = provinces.get(31); // verileri getirir
-// result = provinces.size; // uzunluk döndürür
-// result = provinces.has(34); // listede veri var mı?
-// result = provinces.delete(1); // belirtileni listeeden siler
-// // clear ile tüm elemanları siler
-// console.log(result);
-// console.log(provinces);
+let result = provinces.get(31); // verileri getirir
+result = provinces.size; // uzunluk döndürür
+result = provinces.has(34); // listede veri var mı?
+result = provinces.delete(1); // belirtileni listeeden siler
+// clear ile tüm elemanları siler
+console.log(result);
+console.log(provinces);
 
 
 // // satır satır bilgi gelir
-// for(let province of provinces.entries()){
-//     console.log(province);
-// }
-
-// // keylere ulaşmak istiyorum
-// for(let province of provinces.keys()){
-//     console.log(province);
-// }
-// // valuelere ulaşmak istiyorum
-// for(let province of provinces.values()){
-//     console.log(province);
-// }
-
-// ---------- SETS -----------------------------
-const numbers = new Set();
-
-numbers.add(11);
-numbers.add(22);
-numbers.add(33);
-numbers.add(44);
-
-console.log(numbers.has(22));
-
-// dizi değerlerini yazdırır. numbers yazsaydık da aynı sonucu alırdık(key-value yok)
-for(let number of numbers.values()){
-    console.log(number);
+for(let province of provinces.entries()){
+     console.log(province);
 }
+
+// keylere ulaşmak istiyorum
+for(let province of provinces.keys()){
+    console.log(province);
+}
+// valuelere ulaşmak istiyorum
+for(let province of provinces.values()){
+    console.log(province);
+}
+
+// // ---------- SETS -----------------------------
+// const numbers = new Set();
+
+// numbers.add(11);
+// numbers.add(22);
+// numbers.add(33);
+// numbers.add(44);
+
+// console.log(numbers.has(22));
+
+// // dizi değerlerini yazdırır. numbers yazsaydık da aynı sonucu alırdık(key-value yok)
+// for(let number of numbers.values()){
+//     console.log(number);
+// }
