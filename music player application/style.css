@@ -3,6 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: lightgrey;
 }
 
 .container{
@@ -17,4 +18,9 @@ body{
 
 .volume-container i{
     margin-right: 10px;
+}
+
+li.playing{
+    background-color:darkviolet;
+    color: #fff;
 }

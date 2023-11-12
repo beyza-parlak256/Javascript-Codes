@@ -9,7 +9,7 @@ class MusicPlayer {
     }
     next() {
         // müzik sayısı son müzige gelene kadar arttırır
-        if(this.index + 1 != this.musicList.length) {
+        if(this.index + 1 < this.musicList.length) {
             this.index++;
         }
         // son müzikten sonra tekrar başa dönecek
