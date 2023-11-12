@@ -111,7 +111,7 @@ progressBar.addEventListener("input", () =>{
 // muted = sesli, sesDurumu = muteState
 let muteState = "muted";
 
-// volumeBar a tıklandığında tııklandığı yere göre ses düzeyi ayarlansın
+// volumeBar a tıklandığı yere göre ses düzeyi ayarlansın
 // volumeBarda input bilgisi 100 üzerinden alınır. audio da değer 0 ile 1 arasındadır bu yüzden 100 e bölünür
 volumeBar.addEventListener("input", (e) =>{
     const value = e.target.value;
